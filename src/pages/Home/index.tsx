@@ -1,9 +1,12 @@
-import { Container } from "./styles";
+import { Container, Header } from "./styles";
+import Logo from '../../assets/logo.svg?component'
 
 export function Home() {
   return (
     <Container>
-      <p>Home</p>
+      <Header>
+        <Logo />
+      </Header>
     </Container>
   )
 }
