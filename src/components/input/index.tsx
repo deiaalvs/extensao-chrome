@@ -2,7 +2,7 @@ import { InputHTMLAttributes, useState, ReactNode } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { InputContainer, InputWrapper, Label } from "./styles";
 
-type InputProps = InputHTMLAttributes<HTMLInputElement> & {
+export type InputProps = InputHTMLAttributes<HTMLInputElement> & {
     label: string;
     icon: ReactNode;
 }
